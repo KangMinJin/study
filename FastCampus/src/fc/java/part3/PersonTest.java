@@ -10,5 +10,21 @@ public class PersonTest {
         p.name = "홍길동";
         p.age = 30;
         p.tel = "010-1234-5678";
+
+        System.out.println(p.name+"\t"+p.age+"\t"+p.tel);
+        p.play();
+        p.eat();
+        p.walk();
+
+        Person p1 = new Person();
+
+        p1.name = "나길동";
+        p1.age = 30;
+        p1.tel = "010-1234-5678";
+
+        System.out.println(p1.name+"\t"+p1.age+"\t"+p1.tel);
+        p1.play();
+        p1.eat();
+        p1.walk();
     }
 }

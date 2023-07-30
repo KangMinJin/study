@@ -4,6 +4,10 @@ public class Person {
     public String name;
     public int age;
     public String tel;
+    // 기본 생성자(Constructor) 메서드
+    public Person(){
+        
+    }
     public void play(){
         System.out.println("운동을 한다.");
     }
